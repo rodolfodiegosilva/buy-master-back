@@ -21,14 +21,14 @@ async function importData(){
     //             User.insertMany({...user, password: hashedPwd}).then(function (userInserted) {
     //                 console.log(userInserted[0]._id)
     //                 UserData.insertMany({...user, user: userInserted[0]._id}).then(function () {
-    //
+    
     //                 }).catch(function (error) {
     //                     console.log(error);
     //                 });
     //             }).catch(function (error) {
     //                 console.log(error);
     //             });
-    //
+    
     //         })
     //     }).catch(function (error) {
     //         console.log(error);
